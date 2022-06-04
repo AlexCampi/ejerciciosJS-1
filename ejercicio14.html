@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 14</title>
+</head>
+<body>
+    <script>
+        let distance = parseInt(window.prompt("¿Cuántos metros hay de distancia?"))
+        let hours = parseInt(window.prompt("¿Cuántas horas?"))
+        let minutes = parseInt(window.prompt("¿Cuántos minutos?"))
+        let seconds = parseInt(window.prompt("¿Cuántos segundos?"))
+        console.log(`Velocidad m/s = ${distance / ((hours * 3600) + (minutes * 60) + seconds)}m/s`)
+        console.log(`Velocidad km/h = ${(distance / 1000) / (hours + (minutes / 60) + (seconds / 3600))}km/h`)
+    </script>
+</body>
+</html>
